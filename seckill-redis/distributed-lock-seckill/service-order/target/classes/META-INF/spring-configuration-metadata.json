@@ -1,0 +1,22 @@
+{
+  "groups": [
+    {
+      "name": "sentinel",
+      "type": "com.online.taxi.order.config.RedisSentinelProperties",
+      "sourceType": "com.online.taxi.order.config.RedisSentinelProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "sentinel.address",
+      "type": "java.lang.String[]",
+      "sourceType": "com.online.taxi.order.config.RedisSentinelProperties"
+    },
+    {
+      "name": "sentinel.master-name",
+      "type": "java.lang.String",
+      "sourceType": "com.online.taxi.order.config.RedisSentinelProperties"
+    }
+  ],
+  "hints": []
+}
